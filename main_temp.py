@@ -28,12 +28,13 @@ import matplotlib.pyplot as plt # Visualization
 data_file = './assig_1_dataset_1.mat' # Path pointing to your data file
 D =  # TODO: You should load the .mat data. Check out the function ``loadmat'' from scipy.io. Data will be loaded into a Python dictionary. Read about dictionaries!
 D_keys = D.keys() # Get names of variables in D (called dictionary keys)
-print(D_keys) # Print the list of names. NOTE: ignore names enclosed in '__whatever__'
+print(D_keys) # Print the list of names. NOTE: ignore names enclosed in '__whatever__' 
+              # NOTE: x has observed variable values (inputs) and y_n has desired response values
 
 obs_vars = D['x'][:,:300] # Reading the first 300 inputs as training observed variables
-dsr_rsps = # TODO: Read the corresponding desired training responses
+dsr_rsps = # TODO: Read the corresponding desired training responses from y_n
 obs_vars_val = D['x'][:,300:] # Reading the last 100 inputs as validation observed variables
-dsr_rsps_val = # TODO: Read the corresponding desired validation responses
+dsr_rsps_val = # TODO: Read the corresponding desired validation responses from y_n
 
 #### Milestone ####
 # Not how ``:'' is used to read first and last chunck of data from a numpy array.
