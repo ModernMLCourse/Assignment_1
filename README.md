@@ -1,6 +1,6 @@
 # Assignment 1
 
-This is an assignment on linear regression. You will implement the basic linear model you saw in class, and you learn about regression with basis functions.
+This is an assignment on linear regression. You will implement the basic linear model you saw in class, and you will learn about regression with basis functions.
 
 # Instructions:
 
