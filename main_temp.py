@@ -107,7 +107,7 @@ What happens when we change the vale of N from 2 to 4? What should be the best v
 Answer:
 
 --------------------
-Congrats. You have build two ML models!!
+Congrats. You have built two ML models!!
 '''
 
 
